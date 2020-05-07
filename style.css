@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-conatiner{
+    background-color: #316dc3;
+    color: #ffffff;
+    padding: 3px;
+    display: flex ;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.images img{
+    width: 30px;
+    margin: 4px;
+    height: 30px;
+}
+.navbar li:hover{
+    padding: 2px;
+    background-color: #316dc3;
+    color: #ffffff;
+    border-radius: 3px;
+
+
+}
+marquee{
+    background-color: #316dc3;
+    color:white;
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+ 
+}
+
+.container-fluid{
+    background-color: #316dc3;
+}
+.container-fluid img{
+ 
+    margin-top: 15px;
+}
+.container-fluid p,h2{
+    color:#ffffff;
+    margin-top: 15px;
+
+}
+.container-fluid span{
+    color: greenyellow;
+}
+.container1 ul,li{
+    list-style-type: none;
+
+    margin: 10px;
+        color: #316dc3;
+        text-align: center;
+
+
+    }
+ .container1 li {
+    box-shadow: 10px 10px 30px grey;
+margin: 30px;
+    display: inline-block;
+    width: 300px;
+
+    }
+ .container1 {
+       
+    
+        background-color: whitesmoke;
+    }
+.container1 h2{
+    color: #316dc3;
+    font-weight: bold;
+}
+.container2 h3{
+    color: #316dc3;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.container2 span{
+
+    text-decoration-thickness: initial;
+    
+    text-decoration-color: green;
+    text-decoration-line: underline;
+}
+.container2 li{
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+    
+    flex-wrap: wrap;
+    width: 250px;
+    box-shadow: 10px 10px 30px grey;
+
+
+}
+.container2 marquee{
+    background-color: whitesmoke;
+    color: grey;
+    box-shadow: 10px 10px 30px lightgrey;
+    font-weight: normal;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container2 a{
+    color:  #316dc3;
+}
+.container2 h2{
+    color:  #316dc3;
+
+    font-weight: bold;
+}
+p{
+    color:  #316dc3;
+}
+.imagegallery 
+{
+    background-color: whitesmoke  ;
+  text-align: center;
+   
+}
+.imagegallery img{
+    height: 200px;
+    width: 200px;
+
+}
+.imagegallery img:hover{
+
+    padding: 20px;
+}
+.page-footer1 p,h5{
+    color: lightgray;
+    margin: 5px;
+}
+.page-footer1 li{
+    display: inline;
+}
+.page-footer1{
+    background-color: #25272e;
+}
+.footer-copyright {
+    background-color: #316dc3;
+}
+.footer-copyright a{
+    text-decoration: none;
+    color: wheat;
+}
+.col-md-6 ,.col-md-3 {
+    margin-top: 30px;
+}
